@@ -105,7 +105,8 @@ export default function CategoryList () {
                         key={`card-${card.game}`} 
                         game={card.game}
                         img={card.img}
-                        viewers={card.viewers}/>
+                        viewers={card.viewers}
+                        new={card.new}/>
                 )
             })}
         </main>
