@@ -1,7 +1,7 @@
 export default function Streamer (props) {
     let colorStatus = "text-red-600"
     if (props.status === "Online") {
-        let colorStatus = "text-green-600"
+        colorStatus = "text-green-600"
     } 
     
     return(
